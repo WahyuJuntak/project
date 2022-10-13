@@ -1,0 +1,295 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: New Gothic MT;
+}
+header{
+    background-color: black;
+    height: 65px;
+}
+li{
+    list-style: none;
+}
+.logo{
+    float:left;
+    padding: 10px 50px
+
+}
+.header{
+    background-color: rgb(238, 230, 230);
+    height: 125px;
+    padding-left: 1px;
+    padding-right: 50px;
+}
+.judul {
+    margin-top: 15px;
+}
+.judul2{
+    padding: 10px 10px 100px 5px;
+    bottom: 10px;
+}
+.down2 {
+    display: inline-block;
+    padding-top: 10px;
+    
+}
+
+.judul{
+    padding: 60px 20px 60px 20px;
+    bottom: 10px;
+}
+
+
+.down  {
+    display: inline-block;
+    padding-top: 10px;
+    
+}
+.menu{
+    display: none;
+    position: absolute;
+    
+    
+}
+.menu li{
+    text-decoration: none;
+    padding: 12px 16px;
+    display: block;
+    background-color: rgb(216, 187, 187);
+    
+    
+    /* text-align: center;
+    margin-top: 25px; */
+}
+
+.down :hover .menu{
+    display: block;
+}
+.down:hover .menu{
+    background-color: aqua;
+}
+.judul3{
+    padding: 60px 20px 60px 20px;
+    bottom: 10px;
+}
+.down3 {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 15px;
+    
+}
+.judul4{
+    padding: 60px 20px 60px 20px;
+    bottom: 10px;
+
+}
+.down4{
+    display: inline-block;
+    padding-top: 10px;
+    margin-left: 15px;
+    
+}
+.mpus{
+    display:inline-block;
+    padding-top: 10px;
+    margin-left: 15px;
+    
+}
+.content1{
+    font-family: News Gothic MT;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content2{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+}
+.content3{
+    /* border: 1px solid blue; */
+    /*margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;*/
+    font-size: 30px;
+    width:90%;
+    /*border: 1px solid greenyellow;*/
+    padding:50px;
+    margin:25px;
+    z-index: 100px;
+}
+img{
+    max-width: 100%;
+    height:100%;
+    padding-left: 10px;
+
+}
+
+.content4{
+    border: 1px solid white;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 55%;
+    font-family: News Gothic MT;
+}
+.content5{
+    border: 1px solid white;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 45%;
+    font-size: 20px;
+    font-family: News Gothic MT;
+}
+.content6{
+    border: 1px solid white;
+    margin-left: 5%;
+    margin-right: 45%;
+    padding-left: 25px;
+    font-size: 20px;
+    font-family: News Gothic MT;
+}
+.content6 li{
+    list-style: circle;
+}
+.oonne{
+    border: 1px solid rgb(22, 26, 22);
+    float:right;
+    color: rgb(15, 51, 15);
+    margin-top: -90px;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.one{
+    border: 1px solid rgb(22, 26, 22);
+    color: rgb(15, 51, 15);
+    float:right;
+    margin-top: -35px;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*.one a:hover {
+    background-color: green;
+}
+a :hover{
+    text-decoration: none;
+}*/
+.batu{
+    /*border:1px solid greenyellow;*/
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    /*margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;*/
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.span1{
+    font-size: 47px;
+    font-family: 'Mogan';
+    color: rgb(173, 93, 62);
+}
+.air1{
+    font-size: 33px;
+}
+.history{
+    font-size: 21px;
+}
+.noni1{
+    margin-top: 2%;
+    border: 1px solid rgb(22, 26, 22);
+    color: rgb(15, 51, 15);
+    float:left;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.noni2{
+    margin-top: 2%;
+    border: 1px solid rgb(22, 26, 22);
+    color: rgb(15, 51, 15);
+    float:left;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.span2{
+    font-size: 47px;
+    font-family: 'Mogan';
+    color: rgb(173, 93, 62);
+}
+.air2{
+    font-size: 33px;
+    font-family: News Gothic MT;
+}
+.span3{
+    border:1px solid white;
+    padding-left: 25px;
+}
+.span3 li{
+    list-style: circle;
+    
+}
+.span4{
+    font-size: 35px;
+    font-family: 'Mogan';
+    color: rgb(173, 93, 62);
+}
+.foto{
+    float: left;
+    width: 25%;
+    margin: 30px;
+    position: x;
+}
+.bio{
+    font-size: 20px;
+    background-color: lightgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Us{
+    border:1px solid lightcyan;  
+    background-color: lightcyan;
+}
+.contact{
+    border:1px solid lightseagreen;
+    padding-left: 15px;
+}
+.footer{
+    height: 100px;
+    width: 20%;
+    padding:30px 20px;
+    padding-top: ;
+    bottom: 0;
+    padding-left: 30px;
+    right: 0;
+    left: 0;
+    float: left;
+}
+.box1{
+    border:1px solid #835d0c;
+    float:left;
+    margin-left: 500px;
+    margin-top: -325px;
+    padding-right: 45px;
+    font-size: 18px;
+
+}
+.box2{
+    border:1px solid #835d0c;
+    float: left;
+    margin-left: 900px;
+    margin-top: -325px;
+    padding-right: 45px;
+    font-size: 18px;
+}
+.bawah{
+    font-size: 20px;
+    text-align: center;
+}
+
